@@ -1,0 +1,12 @@
+<ul [ngClass]="setClasses()">
+  <table>
+    <tr>
+      <th>{{ post.id }}</th>
+      <th>{{ post.title }}</th>
+      <th>{{ post.description }}</th>
+      <button (click)="onClick(post)">Details</button>
+      <button>Edit</button>
+      <button>Delete</button>
+    </tr>
+  </table>
+</ul>
